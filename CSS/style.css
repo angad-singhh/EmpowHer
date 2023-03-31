@@ -1,0 +1,184 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #FEFBE7;
+    
+  }
+  
+  .navbar{
+    margin:0;
+    padding:0;
+    font-size: 1.2rem;
+  }
+  nav{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+  }
+  nav ul{
+    float: right;
+    margin-right: 10px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+    
+  }
+  nav ul li:hover{
+    background-color:#041C32;
+
+  }
+  nav ul li a:link{
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+  }
+
+
+ #title{
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    color: #041C32;
+    margin-top: 0px;
+    padding: 10px;
+
+ }
+.top-container{
+
+  text-align: center;
+  background-image: url("pexels-gerzon-piñata-9405477.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+#title_main {
+  margin: 0 auto;
+  color: #04293A;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  padding: 10px 10px 20px 10px;
+  text-shadow: 2px 2px 7px white;
+}
+
+#discription{
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: normal;
+  margin: auto;
+  padding: 0px;
+  text-shadow: 2px 2px 7px ;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: 50%;
+  max-height: 50%;
+  padding: 20px 40px;
+}
+
+.middle-container1{
+  position: relative;
+  margin: auto;
+}
+
+.md1{
+
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #04293A;
+  font-family: 'Italiana', serif;
+  margin: 120px 160px 120px 160px;
+  padding: 20px 20px 50px 20px;
+  border-radius: 5px;
+  border-style: solid;
+}
+p {
+
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  color: #04293A;
+  font-family: cursive;
+  margin: auto;
+
+}
+.md2{
+  position: absolute;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #F3ECB0;
+  font-family: 'Italiana', serif;
+  margin: 10px 100px 120px 160px;
+  padding: 20px 20px 50px 20px;
+  background-color: #04293A;
+  left: 180px;
+  top: 225px;
+  border-radius: 5px;
+}
+.md2 p{
+  color: #EFF5F5;
+}
+
+#title_sub{
+  font-family: 'Pacifico', cursive;
+}
+#img1{
+  padding-left:25px;
+}
+
+.facts_left{  
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #04293A;
+  font-family: 'Italiana', serif;
+  margin: 10px 300px 10px 160px;
+  padding: 5px ;
+  border-radius: 5px;
+  border-style: solid;
+
+}
+.facts_right{  
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #04293A;
+  font-family: 'Italiana', serif;
+  margin: 10px 160px 10px 300px;
+  padding: 5px ;
+  border-radius: 5px;
+  border-style: solid;
+
+}
+
+
+.last{
+  background-color: #041C32;
+  
+}
+.last p{
+  font-size: 1rem;
+  color: white;
+  font-family: cursive;
+  display: inline-block;
+  margin: 10px 140px;
+}
+
