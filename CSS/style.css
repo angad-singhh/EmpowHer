@@ -40,6 +40,10 @@ body,html {
     color: white;
     text-decoration: none;
   }
+  nav ul li a:active{
+    color: white;
+    text-decoration: none;
+  }
 
   nav ul li a{
     text-decoration: none;
