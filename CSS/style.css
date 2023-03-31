@@ -36,6 +36,11 @@ body,html {
     color: white;
     text-decoration: none;
   }
+  nav ul li a:visited{
+    color: white;
+    text-decoration: none;
+  }
+
   nav ul li a{
     text-decoration: none;
     padding: 30px;
